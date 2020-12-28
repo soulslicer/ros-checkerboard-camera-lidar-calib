@@ -4,6 +4,14 @@ This ROS module lets you use a normal checkerboard to calibrate a camera or ster
 
 ![Upsampling](https://github.com/soulslicer/ros-checkerboard-camera-lidar-calib/blob/main/img/1.png?raw=true)
 
+### Setup
+
+```
+mkdir catkin_ws; cd catkin_ws
+git clone https://github.com/soulslicer/ros-checkerboard-camera-lidar-calib.git src
+catkin_make -DCMAKE_BUILD_TYPE=Release
+```
+
 ### Running
 
 ```
