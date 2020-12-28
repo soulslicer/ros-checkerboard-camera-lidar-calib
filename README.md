@@ -2,6 +2,8 @@
 
 This ROS module lets you use a normal checkerboard to calibrate a camera or stereo camera pair to a lidar. The defautlt settings used are for an OS2-128 Lidar, so you may need to change some parameters. This relies on ROS, PCL and Pytorch.
 
+![Upsampling](https://github.com/soulslicer/ros-checkerboard-camera-lidar-calib/blob/main/img/1.png?raw=true)
+
 ### Running
 
 ```
